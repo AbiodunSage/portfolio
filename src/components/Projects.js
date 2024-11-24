@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import ii from "../assets/img/ii.png";
+import bb from "../assets/img/bb.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,34 +12,40 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Instagram Clone",
+      description: "",
+      imgUrl: ii,
+      href: "https://insta-clone-dun.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Application App",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: bb,
+      href: "https://www.bilberktravel.app/",
     },
     {
-      title: "Business Startup",
+      title: "Star wars randomized",
       description: "Design & Development",
       imgUrl: projImg3,
+      href: "https:www.google.com",
     },
     {
-      title: "Business Startup",
+      title: "Beautiful Quotes",
       description: "Design & Development",
       imgUrl: projImg1,
+      href: "https:www.google.com",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Redux",
+      description: "state and state management",
       imgUrl: projImg2,
+      href: "https:www.google.com",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Github ",
+      description: "More projects",
       imgUrl: projImg3,
+      href: "https:www.google.com",
     },
   ];
 
@@ -54,13 +62,13 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
+                  {/* <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
-                  </p>
+                  </p> */}
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
