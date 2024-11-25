@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import ii from "../assets/img/ii.png";
 import bb from "../assets/img/bb.png";
+import rr from "../assets/img/rr.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -38,8 +39,8 @@ export const Projects = () => {
     {
       title: "Redux",
       description: "state and state management",
-      imgUrl: projImg2,
-      href: "https:www.google.com",
+      imgUrl: rr,
+      href: "https://my-redux-topaz.vercel.app/",
     },
     {
       title: "Github ",
